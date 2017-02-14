@@ -1,4 +1,5 @@
-%{"comeonin": {:hex, :comeonin, "2.5.3", "ccd70ebf465eaf4e11fc5a13fd0f5be2538b6b4975d4f7a13d571670b31da060", [:mix, :make, :make], []},
+%{"cipher": {:hex, :cipher, "1.2.2", "427f510233ee08dcf19da717efb7f672b9db223f59301480667bb9d9aef0d952", [:mix], [{:plug, ">= 1.1.0", [hex: :plug, optional: false]}, {:poison, "~> 2.0", [hex: :poison, optional: false]}]},
+  "comeonin": {:hex, :comeonin, "2.5.3", "ccd70ebf465eaf4e11fc5a13fd0f5be2538b6b4975d4f7a13d571670b31da060", [:mix, :make, :make], []},
   "connection": {:hex, :connection, "1.0.4", "a1cae72211f0eef17705aaededacac3eb30e6625b04a6117c1b2db6ace7d5976", [:mix], []},
   "cowboy": {:hex, :cowboy, "1.0.4", "a324a8df9f2316c833a470d918aaf73ae894278b8aa6226ce7a9bf699388f878", [:rebar, :make], [{:cowlib, "~> 1.0.0", [hex: :cowlib, optional: false]}, {:ranch, "~> 1.0", [hex: :ranch, optional: false]}]},
   "cowlib": {:hex, :cowlib, "1.0.2", "9d769a1d062c9c3ac753096f868ca121e2730b9a377de23dec0f7e08b1df84ee", [:make], []},

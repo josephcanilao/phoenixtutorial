@@ -10,7 +10,8 @@ defmodule Rumbl.UserController do
 		render conn, "index.html", users: users
 	end
 
-	# may plug na kasi kaya no need na netu
+	# may plug na kasi kaya no need na nito
+  #
 
 	# def index(conn, _params) do
 	# 	case authenticate(conn) do
@@ -29,7 +30,7 @@ defmodule Rumbl.UserController do
 	end
 
 	alias Rumbl.User
-	
+
 	def new(conn, _params) do
 		changeset = User.changeset(%User{})
 		render conn, "new.html", changeset: changeset
